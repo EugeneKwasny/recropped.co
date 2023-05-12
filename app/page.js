@@ -5,17 +5,14 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
-          Get started:&nbsp;
-          <code className={styles.code}>https://api.recropped.co/image?width=300&height=100</code>
-        </p>
+        ReCropped
         <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
+            Hosted by{' '}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -29,19 +26,15 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <p>
+         Get started:&nbsp;
+          <a target="_blank" href="https://api.recropped.co">api.recropped.co</a>
+        </p>
       </div>
 
       <div className={styles.grid}>
         <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://docs.recropped.co"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
@@ -49,7 +42,7 @@ export default function Home() {
           <h2>
             Docs <span>-&gt;</span>
           </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
+          <p>Find in-depth information about service features and API.</p>
         </a>
       </div>
     </main>

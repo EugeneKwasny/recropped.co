@@ -6,33 +6,16 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         ReCropped.co
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Hosted by{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
       </div>
 
       <div className={styles.center}>
-      <p>
-         Get started:&nbsp;
-          <a target="_blank" href="https://api.recropped.co">api.recropped.co</a>
-        </p>
+        <p>Dynamic Dummy Image Generator service</p>
       </div>
 
       <div className={styles.grid}>
+      <a></a>
+      <a></a>
+      <a></a>
         <a
           href="https://docs.recropped.co"
           className={styles.card}
@@ -44,6 +27,7 @@ export default function Home() {
           </h2>
           <p>Find in-depth information about service features and API.</p>
         </a>
+
       </div>
     </main>
   )

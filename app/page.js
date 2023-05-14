@@ -6,9 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>RECROPPED.CO</div>
 
-      <div className={styles.center}>
-        <p>Open-source placeholder image generator</p>
-      </div>
+      <h1 className={styles.center}>Open-source placeholder image generator</h1>
       <div className={styles.grid}>
       <a
           href="https://api.recropped.co/image?width=500&height=200"

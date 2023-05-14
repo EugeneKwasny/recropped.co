@@ -13,9 +13,6 @@ export default function Home() {
       </div>
 
       <div className={styles.grid}>
-      <a></a>
-      <a></a>
-      <a></a>
         <a
           href="https://docs.recropped.co"
           className={styles.card}

@@ -4,7 +4,7 @@ import styles from './page.module.css'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>ReCropped.co</div>
+      <div className={styles.description}>RECROPPED.CO</div>
 
       <div className={styles.center}>
         <p>Placeholder Image Generator service</p>

@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'ReCropped.co - Placeholder image generator',
+  title: 'ReCropped.co - Open-source placeholder image generator',
   description: 'Free & easily customizable placeholder image generator service.',
 }
 

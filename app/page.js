@@ -7,7 +7,7 @@ export default function Home() {
       <div className={styles.description}>RECROPPED.CO</div>
 
       <div className={styles.center}>
-        <p>Placeholder Image Generator service</p>
+        <p>Open-source placeholder image generator</p>
       </div>
       <div className={styles.grid}>
       <a
@@ -32,7 +32,17 @@ export default function Home() {
           </h2>
           <p>Find in-depth information about service features and API.</p>
         </a>
-
+        <a
+          href="https://github.com/recropped"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2>
+            Contribute <span>-&gt;</span>
+          </h2>
+          <p>Be an active part of the community and contribute ideas, code and bug fixes.</p>
+        </a>
       </div>
     </main>
   )
